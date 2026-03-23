@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    background: white;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.grupoA th { background: #2e86de; color: white; }
+.grupoB th { background: #e74c3c; color: white; }
+
+.classificado {
+    background: #d4edda !important;
+}
+
+input {
+    width: 40px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+}
