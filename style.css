@@ -6,38 +6,45 @@
 }
 body {
     font-family: Arial;
-    background: #f4f4f4;
+    background: hsla(177, 85%, 92%, 0.768);
     text-align: center;
 }
 
 .container {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 40px;
 }
 
 table {
     border-collapse: collapse;
-    background: white;
-    margin: 20px auto;
+    background: rgb(151, 205, 210);
+    margin: 40px auto;
+    width: 100%;
 }
 
 th, td {
     border: 1px solid #ccc;
-    padding: 6px;
+    padding: 30px;
+    font-size: 20px;
 }
 
+h1{
+    font-size: 40px;
+}
 h3 {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .grupoA th { background: #2e86de; color: white; }
 .grupoB th { background: #e74c3c; color: white; }
 
 .classificado {
-    background: #d4edda !important;
+    background: #38d65d !important;
 }
-
+caption{
+    font-size: 35px;
+}
 input {
     width: 40px;
 }
@@ -45,4 +52,12 @@ input {
 a {
     display: inline-block;
     margin: 10px;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: larger;    
 }
