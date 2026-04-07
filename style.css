@@ -6,8 +6,11 @@
 }
 body {
     font-family: Arial;
-    background: hsla(177, 85%, 92%, 0.768);
+    background:url(fundo-de-futebol-gradiente-dinamico_23-2149007789.avif) no-repeat; 
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    opacity: .9;
 }
 
 .container {
